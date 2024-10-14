@@ -19,8 +19,8 @@ Nullable<int> thisCouldAlsoBeNull = null;
 thisCouldAlsoBeNull = 9;
 WriteLine(thisCouldAlsoBeNull);
 
-string firstName; // Allows null but gives warning when potentially null.
-string? lastName; // Allows null and does not give warning if null.
+//string firstName; // Allows null but gives warning when potentially null.
+//string? lastName; // Allows null and does not give warning if null.
 
 Address address = new(city: "London")
 {
